@@ -7,10 +7,41 @@
   width:100%;
   background:#fc1158;
   display:flex;
+  justify-content:space-around;
 }
 #header span{
   display:flex;
-  width:90px;
-  background:url(logo.png) no-repeat 15px 10px;
-  background-size:85%;
+  width:70px;
+  background:url(logo.png) no-repeat 2px 13px;
+  background-size:90%;
 }
+#header p{
+  width:250px;
+  height:32px;
+  margin-top:11px;
+  border:none;
+  background:#ca0e46;
+  border-radius:5px;
+  font-size:16px;
+  color:#eca9bd;
+  text-align:center;
+  margin-right:10px;
+  line-height:32px;
+}
+#header a{
+  display:inline-block;
+  width:18px;
+  margin-right:5px;
+}
+#header a img{
+  width:100%;
+
+}
+#header i{
+  font-size:18px;
+  line-height:50px;
+  color:white;
+  font-weight:bold;
+  margin-right:5px
+}
+
